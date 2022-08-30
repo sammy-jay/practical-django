@@ -3,6 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+CACHE
 # VS Code
 .vscode
 # C extensions
