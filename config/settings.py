@@ -41,6 +41,8 @@ INSTALLED_APPS = [
 
     'corsheaders',
     'compressor',
+
+    'main.apps.MainConfig'
 ]
 
 MIDDLEWARE = [
@@ -160,7 +162,7 @@ LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
     'formatters': {
-        'simple':{
+        'simple': {
             'format': '%(levelname)s %(asctime)s %(module)s %(process)d %(thread)d %(message)s'
         },
     },
